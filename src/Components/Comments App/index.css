@@ -1,0 +1,123 @@
+.comments-app-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-comment{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment-text{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.add-comment-btn{
+    padding: 10px;
+    background-color: rgb(85, 85, 193);
+    border-radius: 5px;
+    color: white;
+}
+
+.comment-count-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-count{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(162, 162, 188);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeMessage{
+    font-size: 15px;
+}
+
+.name-time{
+    display: flex;
+}
+
+.name{
+    margin-right: 20px;
+}
+
+.profile{
+    background-color: aqua;
+    border-radius: 100%;
+    margin-right: 50px;
+}
+
+.like{
+    padding: 0px 10px;
+}
+
+.like-color{
+    padding: 0px 10px;
+    background-color: rgb(91, 172, 91);
+}
+
+
+.count-comment-liked{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.count-comment{
+    display: flex;
+}
+
+
+.like-del{
+    display: flex;
+    justify-content: space-between;
+}
+
+.likeButton{
+    background-color: transparent;
+    border: none;
+}
+
+.delete-btn{
+    background-color: transparent;
+    border: none;
+}
+
+.form-conatiner{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.form-img{
+    display: flex;
+    height: 200px;
+}
+
+.comment-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-div{
+    display: flex;
+}
+
+.comments-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.single-comment-div{
+    margin-bottom: 30px;
+    width: 600px;
+    box-shadow: 2px 2px 2px #888888;
+}

@@ -1,0 +1,13 @@
+.blog-list-container{
+    width:500px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading{
+    font-size: 100px;
+    justify-content: center;
+    align-items: center;
+}

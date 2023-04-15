@@ -1,0 +1,52 @@
+.input{
+    padding: 15px;
+}
+
+.button{
+    padding: 15px;
+    background-color: rgb(19, 133, 161);
+    color: white;
+}
+
+.table-header{
+    display: flex;
+    justify-content: center;
+}
+
+.table-row{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.table-cell{
+    display: flex;
+    align-items: center;
+}
+
+.mobile-no-column{
+    display: flex;
+    justify-content: space-between;
+}
+
+.favorite-icon-container{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.favorite-icon{
+    width: 22px;
+    height: 22px;
+}
+
+.table-header-cell{
+    font-weight: 600;
+}
+
+.responsive-container{
+    display: flex;
+    flex-direction: column;
+}

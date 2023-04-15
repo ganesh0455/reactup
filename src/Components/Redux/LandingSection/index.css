@@ -1,0 +1,31 @@
+.responsive-container1{
+    display: flex;
+    background-color: blue;
+    height:300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading{
+    color: white;
+}
+
+.description{
+    color: white;
+}
+
+.description-container{
+    width: 430px;
+    margin-left:100px;
+}
+
+.logo-white{
+    height: 250px;
+    width: 250px;
+    margin-right: 100px;
+}
+
+.bg-container{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

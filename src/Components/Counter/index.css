@@ -1,0 +1,46 @@
+.container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+
+.button{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.heading1{
+    font-family: 'Roboto';
+    font-size: 30px;
+    color: #32404d;
+}
+
+.count{
+    text-align: center;
+    font-size: 70px;
+    color: black;
+}
+
+.button-container{
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Dec{
+    color: red;
+}
+
+.Inc{
+    color: green;
+}
+
+.Reset{
+    color:black;
+}

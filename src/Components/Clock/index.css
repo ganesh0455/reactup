@@ -1,0 +1,36 @@
+.app-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.toggle-button{
+    width: 100px;
+    padding: 8px;
+    background-color: rgb(54, 191, 194);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.heading{
+    color: green;
+    font-size: 30px;
+}
+
+.time{
+    font-size: 30px;
+}
+
+.clock-container{
+    width: 180px;
+    height: 160px;
+    border-radius: 15px;
+    background-color: rgb(23, 43, 36);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: wheat;
+}

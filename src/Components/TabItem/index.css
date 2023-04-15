@@ -1,0 +1,11 @@
+.tab-item-container{
+    display: flex;
+    list-style-type: none;
+}
+
+.active-tab-btn-true{
+    background-color: rgb(116, 217, 116);
+}
+.active-tab-btn-false{
+    background-color: rgb(208, 131, 131);
+}

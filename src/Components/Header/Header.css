@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    list-style-type: none;
+    padding: 10px;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.nav-bar{
+    width: 100%;
+}
+
+.removeLine{
+    margin-right: 40px;
+}

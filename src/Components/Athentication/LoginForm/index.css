@@ -1,0 +1,48 @@
+.login-form-container{
+    display: flex;
+}
+
+.login-image{
+    width: 1000px;
+    height: 500px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.username-input-filed{
+    padding: 10px;
+    width: 230px;
+    border-radius: 5px;
+}
+
+.password-input-filed{
+    padding: 10px;
+    width: 230px;
+    border-radius: 5px;
+}
+
+.login-button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(72, 142, 192);
+    color: white;
+    width: 255px;
+    border-radius: 5px;
+}
+
+.input-label{
+    font-size: 15px;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+}
+
+.error-msg{
+    color: red;
+}
