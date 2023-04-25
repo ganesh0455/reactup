@@ -8,7 +8,7 @@ class ProductCardDetails extends Component {
     state = {
         productData: {},
         similarProductsData: [],
-        quantity:0,
+        quantity:1,
         totalPrice:0
     };
 
@@ -89,7 +89,7 @@ class ProductCardDetails extends Component {
 
     onClickClearAllItems=()=>{
         this.setState(prevState=>{
-            return ({quantity:0,totalPrice:0})
+            return ({quantity:1,totalPrice:0})
         })
     }
 
