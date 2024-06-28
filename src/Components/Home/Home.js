@@ -81,6 +81,11 @@ const Home=()=>{
                             <Link to='/CommentsApp' className="removeLine">Comments APP</Link>
                         </td>
                     </tr>
+                    <tr>
+                        <td>
+                            <Link to='/FName' className="removeLine">FHelloName</Link>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
         </div>

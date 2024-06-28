@@ -21,7 +21,7 @@ import AthenticationCart from './Components/Athentication/Cart';
 import AthenticationHome from './Components/Athentication/Home';
 import AthenticationLogin from './Components/Athentication/LoginForm';
 import AthenticationProduct from './Components/Athentication/Products';
-import Main from './Components/Redux/Main';
+import Main from './Components/ContextAPI/Main';
 import WMain from './Components/WithoutRedux/Main';
 // import CreacteSingleUser from './Components/UserProfileAssignment/User';
 import UserListPractice from './Components/UserProfileAssignment';
@@ -29,6 +29,7 @@ import ProtectedRoute from './Components/Athentication/ProtectedRoute';
 import ProductCardDetails from './Components/Athentication/ProductCardDetails';
 import ContactListPractice from './Components/Contacts Practice';
 import CommentsApp from './Components/Comments App';
+import HelloName from './Components/FunctionalComponents/Hello';
 
 const App=()=>( 
     <BrowserRouter>
@@ -56,6 +57,7 @@ const App=()=>(
             <ProtectedRoute exact path="/Product/:id" component={ProductCardDetails} />
             <Route exact path="/ContactPractice" component={ContactListPractice} />
             <Route exact path="/CommentsApp" component={CommentsApp} />
+            <Route exct path="/FName" component={HelloName} />
             <Route exact component={Notfound} />
           </Switch>
     </BrowserRouter>

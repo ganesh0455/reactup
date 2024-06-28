@@ -83,7 +83,7 @@ class LoginForm extends Component {
     }
     const response = await fetch(url, options);
     const data = await response.json();
-    // console.log(response);
+    console.log(response);
     if (response.ok === true) {
       this.onSubmitSuccess(data.jwt_token);
     }
@@ -95,7 +95,7 @@ class LoginForm extends Component {
   render() {
     const jwtToken = Cookies.get('jwt_token');
     if (jwtToken !== undefined) {
-      return <Redirect to="AthenticationHome" />;
+      return <Redirect to="AthenticationHome" />
     }
     const { showSubmitError, errorMsg } = this.state;
     return (
